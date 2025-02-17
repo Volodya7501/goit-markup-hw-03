@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -30,45 +31,49 @@
   <body>
     <!-- #region header -->
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" id="logo-link" class="header-nav-logo">
-          Web
-          <span class="header-nav-logo-style"> Studio</span>
-        </a>
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Portfolio</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="adr">
-        <ul class="adr-list">
-          <li class="adr-list-contacts">
-            <a class="adr-list-contacts-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="adr-list-contacts">
-            <a class="adr-list-contacts-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" id="logo-link" class="logo header-nav-logo">
+            Web
+            <span class="header-nav-logo-style"> Studio</span>
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="adr">
+          <ul class="adr-list">
+            <li class="adr-list-contacts">
+              <a class="adr-list-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="adr-list-contacts">
+              <a class="adr-list-contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--#endregion end header -->
 
     <main>
       <!-- #region hero -->
       <section class="hero">
-        <h1 class="hero-style">Effective Solutions for Your Business</h1>
-        <button type="button" class="btn">Order Service</button>
+        <div class="container-hero">
+          <h1 class="hero-style">Effective Solutions for Your Business</h1>
+          <button type="button" class="btn">Order Service</button>
+        </div>
       </section>
       <!-- #endregion hero -->
 

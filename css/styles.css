@@ -6,6 +6,24 @@ a {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 button {
@@ -18,13 +36,36 @@ body {
   background-color: #fff;
   color: #434455;
 }
-/* !!!!! виправив колір тексту */
 /* #endregion zag */
 /* #region header*/
 .header {
+  border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav-logo {
+  display: block;
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.adr-list {
+  display: flex;
+  align-items: center;
+}
 .adr {
+  margin-left: auto;
   font-style: normal;
 }
 .header-nav-logo {
@@ -48,6 +89,8 @@ body {
 }
 
 .header-nav-link {
+  display: block;
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -63,7 +106,13 @@ body {
   color: #404bbf;
 }
 
+.adr-list {
+  gap: 40px;
+}
+
 .adr-list-contacts-link {
+  display: block;
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -82,8 +131,17 @@ body {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  padding: 188px 0;
 }
-
+.hero .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .hero-style {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -92,6 +150,10 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  min-width: 496px;
+  max-height: 120px;
+  margin: 0 480px;
 }
 
 .btn {
@@ -102,6 +164,16 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: block;
+  margin: 48px auto 0;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /* margin: 16px 32px 16px 32px; */
 }
 .btn:hover,
 .btn:focus {
