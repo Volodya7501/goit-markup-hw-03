@@ -405,13 +405,13 @@ border-bottom: 1px solid #e7e9fc;
 height: 112px;
 } */
 
-.footer-container{
+/* .footer-container{
 max-width: 264px;
   min-width: 264px;
   max-height: 112px;
   margin-top: 100px;
   margin-bottom: 100px;
-}
+} */
 
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -449,4 +449,3 @@ max-width: 264px;
   margin-right: auto;
 }
 /* #endregion footer */
-/* 2,06,18 our portfolio */
