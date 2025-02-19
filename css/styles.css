@@ -386,6 +386,7 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 /* .container{
   display: flex;
@@ -393,7 +394,6 @@ body {
 .footer-container {
   display: inline-block;
   max-width: 264px;
-  padding: 100px 0;
 }
 
 .footer-link {
@@ -407,6 +407,7 @@ body {
 
   margin-right: auto;
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-link-span {
   font-family: "Raleway", sans-serif;
@@ -419,6 +420,7 @@ body {
 
   display: inline-block;
   margin-right: auto;
+  margin-bottom: 16px;
 }
 .footer-dscr {
   font-family: "Roboto", sans-serif;
